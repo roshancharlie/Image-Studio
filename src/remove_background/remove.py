@@ -1,6 +1,6 @@
 import torch
 from huggingface_hub import hf_hub_download
-from model import BriaRMBG
+from .model import BriaRMBG
 from PIL import Image
 from .utils import resize_image, preprocess_image, postprocess_result
 
